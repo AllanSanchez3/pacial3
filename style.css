@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.cartaTendencias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.cartaTendencias img {
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #20232a;
+  color: #e2f1f6;
+}
+
+section h2 {
+  color: black;
+}
+
+.logo img {
+  max-width: 120px;
+}
+
+nav {
+  display: flexbox;
+  gap: 2rem;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: #d0f0f9;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+.banner {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #cae5ec;
+  color: #fff;
+}
+
+.banner img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 1rem;
+  box-shadow: inset;
+}
+
+.catalogo {
+  padding: 2rem 2rem;
+  background-color: #fff;
+}
+
+.catalogo h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contenedorProducto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.cartaProducto {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 10px 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  padding: 1rem;
+}
+
+.cartaProducto:hover {
+  transform: translateY(-8px);
+}
+
+.cartaProducto img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+footer {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem 2rem;
+  background-color: #20232a;
+  color: white;
+}
+
+footer .cartaFooter {
+  text-align: center;
+}
+
+footer .cartaFooter h3 {
+  margin-bottom: 1rem;
+}
+
+footer .cartaFooter:hover {
+  background-color: #333;
+  padding: 1rem;
+  border-radius: 8px;
+}
